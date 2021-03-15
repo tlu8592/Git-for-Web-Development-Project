@@ -1,0 +1,164 @@
+https://codepen.io/tl8592/pen/ZEBwzJq
+
+1. What is Semantic HTML? 
+
+        making HTML code meaningful
+
+
+    2. What is HTML used for? 
+
+        displaying textual data
+    
+    3. What is an attribute and where do we put it? 
+
+        special tag that's used when we need to include information that we do not want to show 
+        on a page
+
+    4. What is the h1 tag used for? How many times should I use it on a page?
+
+        used as the main title of a page; it should be used only once per page
+
+    5. Name two tags that have required attributes
+
+        anchor(href) and img(src)
+
+    6. What do we put in the head of our HTML document? 
+        
+        style tag or link element
+
+    7. What is an id? 
+
+
+    8. What elements can I add an id to? 
+
+        child elements (i.e., p, img)
+
+    9. How many times can I use the same id on a page? 
+
+        only one time
+
+    10. What is a class? 
+
+        title that can be applied to multiple elements
+
+    11. What elements can I add a class to? 
+
+        parent elements (div, li)
+
+    12. How many times can I use the same class on a page? 
+
+        There is no limit.
+
+    13. How do I get my link to open in a new tab?
+
+        Add a target="_blank" attribute to the link.
+
+    14. What is the alt attribute in the image tag used for? 
+
+        to display alternative text if the image doesn't load properly
+
+    15. How do I reference an id?
+
+        hash tag + id name
+
+    16. What is the difference between a section and a div
+
+        The section tag is more semantic than the div.
+
+    17. What is CSS used for? 
+
+        color, decorations, styling of the website
+
+    18. How to we select an element? Example - every h2 on the page
+
+        h2 { ... }
+   
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+        
+        Class is used for parent elements, that way any styling can be implemented on nested
+        child elements. Id is used for a single child element and only one id can be used in a page.
+    
+    20. How do we select classes in CSS?
+
+        Type a period (.) and then the class name.
+
+    21. How do we select a p element with a single class of “human””?
+
+        .human
+
+    22. What is a parent child selector? When would this be useful? 
+
+
+    23. How do you select all links within a div with the class of sidebar?
+
+        .sidebar a { ... }
+
+    24. What is a pseudo selector?
+
+        selects elements in a specific state (i.e. hovered, clicked on)
+
+    25. What do we use the change the spacing between lines?
+
+        line-height property
+
+    26. What do we use to change the spacing between letters?
+
+        letter-spacing property
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+
+        CAPITALS: set text-transform property to uppercase
+        lowercase: set text-transform property to lowercase
+        Capitalize: set text-tranform property to capitalize
+
+    28. How do I add a 1px border around my div that is dotted and black?
+
+        div { border: 1px dotted black; }
+
+    29. How do I select everything on the page? 
+
+        universal selector (*)
+
+    30. How do I write a comment in CSS?
+
+        /* comment here */
+
+    31. How do I find out what file I am in, when I am using the command line? 
+
+        git status
+
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+
+        using list command (ls)
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+
+        $ rm filename
+
+        Be careful. Once the rm is used to delete the file, you cannot get it back. You will not
+        be prompted before deleting.
+
+    34. Why should I use version control? 
+
+        It keeps revisions straight, putting them in central repository. This is easy for 
+        collaboration with other developers, working the code on their local drives and then
+        uploading their changes to the remote version.
+
+    35. How often should I commit to github?
+
+        Commit often. You can commit once you have made a significant change
+
+    36. What is the command we would use to push our repo up to github? 
+
+        git push command
+
+    37. Walk me through Lambda's git flow. 
+    
+        Step 1: Fork repository
+        Step 2: Add collaborator
+        Step 3: Clone repository
+        Step 4: Checkout branch name (using firstName-lastName format)
+        Step 5: Work on the code,
+        Step 6: Add (git add . ) and commit (git commit -m) changes
+        Step 7: Push local changes to remoto repo (git push -u origin branch-name)
+        Step 8: Create Pull Request
